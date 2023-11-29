@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apex Wildlife Service, LLC</title>
+    <!-- <link rel="icon" href=""> -->
+    <meta name="description" content="Apex Wildlife Service, LLC">
+    <meta name="author" content="Joanne Carpenter">
+
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:url" content="https://joannecarpenter.github.io/wdd230/"> -->
+    <meta property="og:title" content="Apex Wildlife Service, LLC">
+    <!-- <meta property="og:image" content="https://github.com/joannecarpenter/wdd230/images/currituck-location-photo.jpg">
+    <meta property="og:image:alt" content="A yellow house on the water in Currituck, North Carolina">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">  -->
+    <meta property="og:description" content="Apex Wildlife Service, LLC">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <!-- <source srcset="images/logo-currituck-small.webp" media="(max-width: 75px)">
+            <source srcset="images/logo-currituck-med.webp" media="(max-width: 150px)"> -->
+            <img src="images/ApexWildlife.logo.jpeg" alt="Apex Wildlife Logo" width="350" height="350">
+        </picture>
+        <h1>Apex Wildlife Service, LLC</h1>
+    </header>
+
+    <nav>
+        <button id="menu" aria-label="Menu"></button>
+        <ul class="navigation">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero-image">
+            <figure>
+                <!-- <source srcset="images/currituck-beach-small.webp" media="(max-width: 350px)">
+                <source srcset="images/currituck-beach-med.webp" media="(max-width: 500px)">
+                <source srcset="images/currituck-beach-lrg.webp" media="(max-width: 1000px)"> -->
+                <img src="images/praswin-prakashan-unsplash-forest-image.jpeg" width="1000" height="576" loading="lazy" alt="Forest of Green Trees in Virginia">
+                <figcaption>Fig. 1 - Photo by <a href="https://unsplash.com/@praswin2390?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Praswin Prakashan</a> on <a href="https://unsplash.com/photos/a-fallen-tree-in-the-middle-of-a-forest-87Lfa9GVe28?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </figcaption>
+            </figure>
+
+            <div class="action-box">
+                <h3>Licensed in Virginia</h3>
+                <h3>Residential and commerical animal removal</h3> 
+                <h3>Full exclusion services</h3>
+                <button onclick="window.location.href='contact.html';">Request a Consultation</button>
+            </div>    
+        </div>    
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p>Apex Wildlife Service, LLC &bull; Isle of Wight County, Virginia &bull; 757-371-3477</p>
+        <hr>
+        </div>
+        <div class="site-info">
+            <p>&copy;<span id="year"></span> &bull; Joanne Carpenter &bull; A professional portfolio project</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/activateHamButton.js"></script>
+    <!-- <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlights.js"></script>
+    <script src="scripts/banner.js"></script> -->
+</body>
+
+</html>

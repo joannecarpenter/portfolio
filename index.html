@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joanne Carpenter - Professional Portfolio</title>
+    <!-- <link rel="icon" href="favicon-joanne.ico"> -->
+    <meta name="description" content="Joanne Carpenter - Professional Portfolio">
+    <meta name="author" content="Joanne Carpenter">
+    
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:url" content="https://joannecarpenter.github.io/portfolio/"> -->
+    <meta property="og:title" content="Joanne Carpenter - Professional Portfolio">
+    <!-- <meta property="og:image" content="https://github.com/joannecarpenter/wdd230/images/currituck-location-photo.jpg">
+    <meta property="og:image:alt" content="A yellow house on the water in Currituck, North Carolina">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">  -->
+    <meta property="og:description" content="Joanne Carpenter - Professional Portfolio">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Joanne Carpenter</h1>
+        <div id="mode" aria-label="Dark Mode">☑️</div>
+    </header>
+    <nav>
+        <button id="menu" aria-label="Menu"></button>
+        <ul class="navigation">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 460px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+                <img src="images/hero-medium.webp" alt="Washington D.C. LDS Temple" width="1000" height="500">
+            </picture>
+            <div class="herolabel">
+                <p>Washington D.C. Temple</p>
+            </div>
+        </div> -->
+        <h2>Projects</h2>
+        <div class="sidebyside">
+            <section id="web-development" class="card">
+                <h3>Web Development</h3>
+                <ul class="left-side" id="list">
+                    <li><a href="">Dry Oar</a></li>
+                    <li><a href="">Chamber</a></li>
+                    <li><a href="">Apex Wildlife</a></li>
+                    <li><a href="">Chore Manager</a></li>
+                </ul>
+            </section>
+            <section id="coding" class="card">
+                <h3>Other Coding Projects</h3>
+                <ul class="right-side" id="list">
+                    <li><a href="">Code Pens</a></li>
+                    <li><a href="">Python</a></li>
+                    <li><a href="">JavaScript</a></li>
+                    <li><a href="">C Sharp</a></li>
+                </ul>
+                
+                <hr>
+                <div>
+                    <h4>Page Visits</h4>
+                    <span class="label">Number of Visits: </span><span class="visits"></span>
+                </div>
+                
+            </section>
+        </div>
+    </main>
+        <footer>
+        <p>&copy;<span id="year"></span> &bull; Joanne Carpenter &bull; North Carolina</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <!-- <script src="scripts/buttons.js"></script> -->
+    <script src="scripts/countVisits.js"></script>
+</body>
+</html>
